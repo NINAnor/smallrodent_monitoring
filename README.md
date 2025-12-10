@@ -1,36 +1,12 @@
-# nina-template-r
+# A national monitoring program for small rodents
 
-Modify this `README.md` file, to explain what your software does.
+In 2023 a camera trap-based monitoring program for small rodents was established in Norwegian mountains by NINA on behalf of the Norwegian environmental agency. During the first years monitoring localities has been established from Komgadalen in the North to Haukelifjell in the south. In this repository you will find codes use to handle, process and analyse the data from the monitoring program.  
+
+# GBIF
+All the data from the monitoring program will be available from: https://www.gbif.org/dataset/13101e81-bc62-4553-9fd9-c5c8eb3fb9ab
+
 
 # Additional resources
-
-In addition to this template, here is a list of useful resources you could start from:
-- https://github.com/NINAnor/NinaR
-
-# Good practices
-
-## .gitignore
-
-Add paths and files that you do not want to be committed by adding them to .gitignore.
-
-## pre-commit
-
-`pre-commit` can run tools to check your changes and refactor code (using `styler`), to keep your repository clean and avoid common mistakes. The list of actions that are executed are defined in `.pre-commit-config.yaml`.
-
-### Installation
-
-1. Install Python if not available. It can be downloaded from [python.org/downloads](https://www.python.org/downloads/). Be sure to add Python to your PATH.
-2. Install `pipx`, as it is the suggested way to install Python tools:
-   - Windows users: `py -3 -m pip install pipx`
-   - Linux users: `python3 -m pip install pipx`
-3. Install `pre-commit`: `pipx install pre-commit`
-4. Configure PATH: `pipx ensurepath`
-5. Close and open your shell again
-6. Enter into your git repository and install the hooks: `pre-commit install` (optional, but recommended)
-
-### How to use it
-
-In case you executed `pre-commit install`, `pre-commit` hooks will be executed each time you will try to commit (`git commit`). If any of the checks fail or if any files that is going to be committed is changed (because a tool refactored or cleaned it), the commit will fail.
-
-The suggested method to use `pre-commit` is to run it before trying to commit your changes, using `pre-commit run -a`. You can run this command multiple times, to check if the changes are ready to be committed.
-After all the tests succeeded, the changes can be staged (`git add`) and committed.
+For more information on the monitoring program see:
+Kleiven, E.F., Framstad, E., Bakkestuen, V., Böhner, H., Cretois, B., Frassinelli, F., Ims, R.A., Jepsen, J.U., Soininen, E.M. & Eide, N.E. 2022. Ny nasjonal smågnagerovervåking i fjell basert på kamerafeller. Forslag til innsamlingsdesign og dataprosessering. NINA Rapport 2170. Norsk institutt for naturforskning.
+Kleiven, E.F., Böhner, H., Chacòn, A.F., Framstad, E., Soininen, E.M., Ims, R.A. og Eide, N.E. 2025. 3 år med kamerabasert overvåking av smågnagere i norske fjell: oppsummering og evaluering. NINA Rapport 2685. Norsk institutt for naturforskning.
